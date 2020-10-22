@@ -96,7 +96,7 @@ public class PyramidBuilderTest {
         int[][] pyramid = pyramidBuilder.buildPyramid(input);
 
         // assert
-        comparePyramids(expected, pyramid);
+         comparePyramids(expected, pyramid);
     }
 
 
